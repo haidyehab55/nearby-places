@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">nearby places</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="places_api_key">AIzaSyA8uBF91zUff5zcUcdXUlnxgWMxqweF7Wg</string>
+</resources>

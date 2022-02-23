@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/travels">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yala Bena!"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello there!"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our App! ,, We aim that you will have a good experience with getting the nearby places to you."
+        android:layout_marginRight="85dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's start our journey!"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/ic_baseline_tag_faces_24"
+        android:textColor="@color/black"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        android:text="Press Me!"
+        android:textSize="15dp"
+        android:background="@drawable/button_border"
+        android:layout_marginTop="25dp"
+        android:onClick="step"
+        android:id="@+id/start" />
+
+</LinearLayout>
